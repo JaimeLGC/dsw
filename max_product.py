@@ -19,11 +19,14 @@ def max_product(number: str, distance: str):
             max_res = res
     return max_res
 
+
+# acepta la distancia como entero
+print(max_product('2357898', 3)) 
+
 # print(max_product('2357898', '3'))
 # print(max_product('23578985', '3'))
 # print(max_product('2357898', '15'))
 # print(max_product('2357898', 'a'))
 # print(max_product('23578b98', '5'))
-print(max_product('2357898', 3))
 # print(max_product(2357898, '3'))
 # print(max_product(2357898, 3))
